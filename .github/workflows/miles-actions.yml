@@ -1,0 +1,13 @@
+name: Miles Action
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hello Github Actions
+        run: echo "Hello Miles!"
