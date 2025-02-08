@@ -27,3 +27,11 @@ jobs:
       - name: Print Node version
         run: |-
           node -v
+
+      - name: ⚙️ Install packages
+        run: |-
+          yarn install
+
+# yarn build
+# echo Built Successfully 🎉
+# ls -al | grep dist
