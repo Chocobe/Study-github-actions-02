@@ -21,3 +21,7 @@ jobs:
 
       - name: Setup Nodejs
         uses: actions/setup-node@v4
+
+      - name: Print Node version
+        run: |-
+          node -v
