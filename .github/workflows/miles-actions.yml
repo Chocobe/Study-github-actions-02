@@ -32,6 +32,8 @@ jobs:
         run: |-
           yarn install
 
-# yarn build
-# echo Built Successfully 🎉
-# ls -al | grep dist
+      - name: 🔧 Build
+        run: |-
+          yarn build
+          echo Built successfully 🎉
+          ls -al | grep dist
